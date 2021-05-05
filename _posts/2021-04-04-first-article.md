@@ -26,7 +26,7 @@ keywords: 我们, 爱情
 
 宝贝总在期待一封信，无奈哥哥字太丑惹...聊以此文作信，宝贝贝不要嫌弃哦！
 
-<img src="https://raw.githubusercontent.com/Fan-Yixuan/love-station/master/images/social-preview.jpg" width="80%"/>
+<img src="https://raw.githubusercontent.com/FL-lovestation/FL-lovestation.github.io/main/images/social-preview.jpg" width="80%"/>
 
 爱宝贝的哥哥
 
