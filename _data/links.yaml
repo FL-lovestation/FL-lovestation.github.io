@@ -1,0 +1,15 @@
+- name: 乖乖的小号
+  url: https://weibo.com/u/6904567267
+  src: love
+
+- name: 上海交通大学
+  url: https://www.sjtu.edu.cn/
+  src: life
+
+- name: 哥伦比亚大学
+  url: https://www.columbia.edu/
+  src: life
+
+- name: 清华大学
+  url: https://www.tsinghua.edu.cn/
+  src: life

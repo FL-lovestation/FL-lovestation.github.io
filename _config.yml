@@ -1,0 +1,95 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+url: https://fl-lovestation.github.io
+date_format: "ordinal"
+title: Love Station
+subtitle: FYX 和 LJJ 的爱之小窝
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+repository: FL-lovestation/fl-lovestation.github.io
+# 对 css 和 js 资源的 cdn 加速配置
+cdn:
+  jsdelivr:
+    enabled: true
+# 可选组件配置
+components:
+  # 分享
+  share:
+    enabled: false
+  # 不蒜子访问统计
+  busuanzi:
+    enabled: true
+    start_date: 2021-04-01
+  # 文章字数统计
+  word_count:
+    enabled: true
+# 压缩页面内容
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+# 代码高亮风格
+highlight_theme: github
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+github_username: FL-lovestation
+location: Beijing, China & Shanghai, China
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  - href: /
+    label: 首页
+
+  - href: /categories/
+    label: 分类
+
+  - href: /links/
+    label: 链接
+
+  - href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-github-metadata
+  - rouge
+  #     - jekyll-html-pipeline
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
+#     - jekyll-mentions
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+  # 是否支持全文搜索
+  fulltext: false
+  # 最多显示多少条搜索结果
+  limit: 10
