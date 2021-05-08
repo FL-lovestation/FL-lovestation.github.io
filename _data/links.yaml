@@ -4,12 +4,28 @@
 
 - name: 上海交通大学
   url: https://www.sjtu.edu.cn/
-  src: life
+  src: study_work
 
 - name: 哥伦比亚大学
   url: https://www.columbia.edu/
-  src: life
+  src: study_work
 
 - name: 清华大学
   url: https://www.tsinghua.edu.cn/
-  src: life
+  src: study_work
+
+- name: 今天，清华人在天安门！
+  url: https://mp.weixin.qq.com/s?__biz=MzA4OTIyMzgxMw==&mid=2659210640&idx=1&sn=8a86a7ccc01ae76bd5cdab91dff3395b
+  src: study_work
+
+- name: 蒜香鸡翅
+  url: https://www.bilibili.com/video/BV1H54y117PF
+  src: food
+
+- name: 北京西四
+  url: https://mp.weixin.qq.com/s?__biz=MzA3Mzc3MDIyNg==&mid=2664654717&idx=1&sn=38dbe136810ac726c5e4579e8179a83e
+  src: play
+
+- name: 好玩的实用日语
+  url: https://mp.weixin.qq.com/s?__biz=MzU2NzE2Njk4MA==&mid=2247489234&idx=4&sn=2d1e04f882ebf3bbe7949d0ff8646bb0
+  src: play
