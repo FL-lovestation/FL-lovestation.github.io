@@ -15,11 +15,31 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-> 学习、工作和生活
+> 学习与工作
 
 <ul>
 {% for link in site.data.links %}
-  {% if link.src == 'life' %}
+  {% if link.src == 'study_work' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+> 好吃的
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == 'food' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+> 好玩的
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == 'play' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
