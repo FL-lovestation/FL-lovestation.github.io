@@ -25,6 +25,16 @@ permalink: /links/
 {% endfor %}
 </ul>
 
+> 好吃的地方
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == 'restaurant' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 > 好吃的
 
 <ul>
