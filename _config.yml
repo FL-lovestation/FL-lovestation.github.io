@@ -36,7 +36,7 @@ highlight_theme: github
 #      Author      #
 # ---------------- #
 github_username: FL-lovestation
-location: Beijing, China & Shanghai, China
+location: Beijing, China & New York, US
 
 # ---------------- #
 #    Navigation    #
@@ -74,7 +74,7 @@ permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-github-metadata
   - rouge
-  #     - jekyll-html-pipeline
+  # - jekyll-html-pipeline
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
