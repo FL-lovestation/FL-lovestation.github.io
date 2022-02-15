@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 贝贝的职业思考
-categories: [温馨日常]
+categories: [总结思考]
 ---
 
 贝贝腾讯投资面试失败后的感想<abs>
