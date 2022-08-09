@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2022 暑假新冠隔离级
+title: 2022 暑假新冠隔离记
 categories: [温馨日常]
 ---
 
